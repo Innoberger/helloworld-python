@@ -10,3 +10,6 @@ def test_helloname_emptystring():
 
 def test_helloname_john():
     assert helloname("John") == "Hello John"
+
+def test_helloname_john():
+    assert helloname("Jane") == "Hello Jane"
